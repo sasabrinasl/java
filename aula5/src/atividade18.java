@@ -1,6 +1,6 @@
 package src;
 
-public class App {
+public class atividade18 {
     public static void main(String[] args) throws Exception {
         int sum = 0;
         int count = 0;
