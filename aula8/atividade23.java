@@ -1,11 +1,20 @@
-public class exercicio22 {
+import java.util.Scanner;
+
+public class atividade23 {
     public static void main(String[] args) {
         mensagemDeBoasVindas();
         menu();
     }
 
     public static void mensagemDeBoasVindas(){
-        System.out.println("SEJA BEM VINDO\n");
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Insira o teu nome: ");
+        String nome = input.nextLine();
+
+        System.out.println("\nSEJA BEM VINDO " + nome + "\n");
+
+        input.close();
     }
 
     public static void menu(){
