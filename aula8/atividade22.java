@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class atividade22 {
     public static void main(String[] args) {
         mensagemDeBoasVindas();
@@ -5,7 +7,14 @@ public class atividade22 {
     }
 
     public static void mensagemDeBoasVindas(){
-        System.out.println("\nSEJA BEM VINDO ");
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Insira o teu nome: ");
+        String nome = input.nextLine();
+
+        System.out.println("\nSEJA BEM VINDO " + nome + "\n");
+
+        input.close();
     }
 
     public static void menu(){

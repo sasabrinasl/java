@@ -1,6 +1,6 @@
 package src;
 
-public class App {
+public class atividade4 {
     public static void main(String[] args) throws Exception {
 
         int[] v = new int[]{2, 0, 3, 9};

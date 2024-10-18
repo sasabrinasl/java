@@ -1,3 +1,4 @@
+package src.Teste;
 import java.util.Scanner;
 
 public class Atividade3 {

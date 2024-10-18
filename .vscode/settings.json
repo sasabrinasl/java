@@ -1,12 +1,14 @@
 {
     "java.project.sourcePaths": [
-        "aula4/src/Teste/Teste/src",
-        "aula3",
-        "aula5",
-        "aula6",
-        "aula4",
+        "aula8",
         "aula7",
-        "aula8"
+        "aula6",
+        "aula5",
+        "aula4/src/Teste/Teste/src",
+        "aula4",
+        "aula3",
+        "aula10",
+        "aula9"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": []
