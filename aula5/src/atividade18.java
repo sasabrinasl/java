@@ -19,6 +19,6 @@ public class atividade18 {
             
         }
         System.out.println("\nThe sum of the values is equals to " + sum);
-
+        
     }
 }
