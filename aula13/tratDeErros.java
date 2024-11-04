@@ -1,6 +1,6 @@
 public class tratDeErros {
     public static void main(String[] args) {
-        String frase = null;
+        String frase = "olá"; //era null
         String novaFrase = null;
 
         //novaFrase = frase.toUpperCase();
