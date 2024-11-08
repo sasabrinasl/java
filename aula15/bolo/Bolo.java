@@ -1,6 +1,6 @@
 package bolo;
 
-public class Bolo {
+public abstract class Bolo {
     //Variáveis de instância
     private String sabor;
     private int tamanho;
@@ -56,4 +56,7 @@ public class Bolo {
     public void adicionarCobertura() {
         cobertura = true;
     }
+
+    //Forma de criação de um método abstrato
+    public abstract void tipoConfecao();
 }

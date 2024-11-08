@@ -3,6 +3,7 @@ public class Data {
     private int mes = 1;
     private int ano = 1;
 
+    //  Construtor
     public Data(int dia, int mes, int ano){
         if(dia >= 1 && dia <= 31){
             this.dia = dia;
@@ -15,12 +16,6 @@ public class Data {
         }
     }
 
-    public void setData(int dia, int mes, int ano){
-        this.dia = dia;
-        this.mes = mes;
-        this.ano = ano;
-    }
-
     public int getDia(){
         return dia;
     }
@@ -31,6 +26,12 @@ public class Data {
 
     public int getAno(){
         return ano;
+    }
+
+    public void setData(int dia, int mes, int ano){
+        this.dia = dia;
+        this.mes = mes;
+        this.ano = ano;
     }
 
     public void exibirDetalhes(){
