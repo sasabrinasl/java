@@ -3,9 +3,10 @@ package bolo;
 public class Main {
     public static void main(String[] args) {
 
-        BoloChocolate boloMarrom = new BoloChocolate(30, true);
+        // Polimorfismo 
+        Bolo boloMarrom = new BoloChocolate(30, true);
 
-        BoloMorango boloRosa = new BoloMorango(50, false);
+        Bolo boloRosa = new BoloMorango(50, false);
 
         boloMarrom.exibirDetalhes();
         boloMarrom.tipoConfecao();
