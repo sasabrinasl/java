@@ -6,6 +6,10 @@ public abstract class Bolo {
     private int tamanho;
     private boolean cobertura;
 
+    // Variáveis para testar a interface 
+    private String mensagem;
+    private String corDecoracao;
+
     //Construtor da classe com dois parâmetros
     public Bolo(String sabor, boolean cobertura){
         this.sabor = sabor;
@@ -45,6 +49,21 @@ public abstract class Bolo {
         this.cobertura = cobertura;
     }
 
+    public String getMensagem() {
+        return mensagem;
+    }
+
+    public void setMensagem(String mensagem) {
+        this.mensagem = mensagem;
+    }
+
+    public void setCorDecoracao(String corDecoracao) {
+        this.corDecoracao = corDecoracao;
+    }
+
+    public String getCorDecoracao() {
+        return corDecoracao;
+    }
 
     //Apresenta os detalhes do bolo
     public void exibirDetalhes() {
@@ -52,6 +71,9 @@ public abstract class Bolo {
         System.out.println("Tamanho do bolo: " + tamanho + "cm");
         System.out.println("Cobertura? " + (cobertura ? "Sim": "Não"));
     }
+
+    //Implementação dos métodos da interface Personalizavel
+    
 
     public void adicionarCobertura() {
         cobertura = true;
