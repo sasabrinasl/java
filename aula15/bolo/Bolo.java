@@ -72,9 +72,6 @@ public abstract class Bolo {
         System.out.println("Cobertura? " + (cobertura ? "Sim": "Não"));
     }
 
-    //Implementação dos métodos da interface Personalizavel
-    
-
     public void adicionarCobertura() {
         cobertura = true;
     }
