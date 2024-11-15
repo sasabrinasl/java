@@ -3,6 +3,9 @@
 public abstract class Veiculo {
     private String veiculo, cor, marca, modelo;
 
+    // Criar variáveis para a interface
+    private boolean alugado, devolvido;
+
     public Veiculo(String veiculo, String cor, String marca, String modelo){
         this.veiculo = veiculo;
         this.cor = cor;
@@ -24,7 +27,6 @@ public abstract class Veiculo {
         this.cor = cor;
     }
 
-
     public String getmarca(){
         return marca;
     }
@@ -37,6 +39,22 @@ public abstract class Veiculo {
     }
     public void setModelo(String modelo){
         this.modelo = modelo;
+    }
+
+    public boolean getAlugar() {
+        return alugado;
+    }
+
+    public void setAlugar(boolean alugado) {
+        this.alugado = alugado;
+    }
+
+    public boolean getDevolver() {
+        return devolvido;
+    }
+
+    public void setDevolver(boolean devolvido) {
+        this.devolvido = devolvido;
     }
 
     public void exibirDetalhes(){
