@@ -3,7 +3,7 @@ public class Consola {
     private int preco;
     protected String localizacao;
 
-    public void multiplayer();
-    private void vender();
-    protected void idioma();
+    public void multiplayer() {};
+    private void vender() {};
+    protected void idioma() {};
 }

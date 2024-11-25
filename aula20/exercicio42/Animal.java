@@ -3,7 +3,7 @@ public class Animal {
     private int chip; // -
     protected int ano; // #
 
-    public void tamanho();
-    private void registar();
-    protected void idade();
+    public void tamanho(){};
+    private void registar(){};
+    protected void idade(){};
 }
